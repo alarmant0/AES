@@ -16,7 +16,7 @@ This Python script (`aes_encryption_and_decryption.py`) demonstrates AES encrypt
     ```
 
 2. **Navigate to Script Directory**:
-  - Navigate to the directory where the script (`aes_encryption.py`) is located.
+  - Navigate to the directory where the script (`aes_encryption_and_decryption.py`) is located.
 
 3. **Run the Script**: 
   - Run the script using the following command:
