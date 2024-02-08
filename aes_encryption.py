@@ -18,13 +18,10 @@ def decrypt_message(encrypted, key):
     decrypted_message = cipher.decrypt_and_verify(ciphertext, tag)
     return decrypted_message.decode('utf-8')
 
-# Replace 'your_secret_key' with a strong secret key
 secret_key = get_random_bytes(16)
 
-# Replace 'Your secret message here!' with the message you want to encrypt
-message_to_encrypt = 'Your secret message here!'
+message_to_encrypt = 'Secret information about you'
 
-# Encrypt the message
 encrypted_data = encrypt_message(message_to_encrypt, secret_key)
 print("Encrypted Data:", encrypted_data)
 decrypted_message = decrypt_message(encrypted_data, secret_key)
